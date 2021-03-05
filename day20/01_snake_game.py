@@ -18,6 +18,7 @@ screen.tracer(0)
 score_board = ScoreBoard()
 snake = Snake()
 food = Food()
+
 # Listening the screen
 screen.listen()
 screen.onkey(snake.up, "Up")
